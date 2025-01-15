@@ -3,8 +3,6 @@ function getNewHit() {
     document.querySelector("#hitVal").textContent = rn;
 
 }
-
-
 function makeBubble() {
   let clutter = "";
 
@@ -15,7 +13,6 @@ function makeBubble() {
 
   document.querySelector("#pbtm").innerHTML = clutter;
 }
-
 function runTimer() {
   let timer = 60;
   let timerint = setInterval(function () {
